@@ -1,0 +1,3056 @@
+{
+  "items": [
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Codex Plugin for Claude Code",
+          "description": "Official plugin to use Codex from Claude Code for code reviews and task delegation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-07-08T00:17:31Z",
+            "owner": "openai",
+            "repo": "codex-plugin-cc",
+            "stars": 31794
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Skills Catalog",
+          "description": "Official skills catalog: , , and skills. The authoritative upstream source.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-14T16:47:46Z",
+            "owner": "openai",
+            "repo": "skills",
+            "stars": 24879
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Codex Action",
+          "description": "Official GitHub Action for running in CI with sandbox controls.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T19:53:56Z",
+            "owner": "openai",
+            "repo": "codex-action",
+            "stars": 1183
+          }
+        }
+      ],
+      "title": "Official Resources"
+    },
+    {
+      "description": "Project-level instruction files that tell Codex how to work with your codebase - the equivalent of Claude Code's .",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "agentsmd/agents.md",
+          "description": "The open AGENTS.md specification under Linux Foundation. 60k+ adopting projects.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-12T14:26:14Z",
+            "owner": "agentsmd",
+            "repo": "agents.md",
+            "stars": 23612
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "caliber-ai-org/ai-setup",
+          "description": "Cross-tool config generator - outputs AGENTS.md, CLAUDE.md, and .cursorrules from one source.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-26T12:08:51Z",
+            "owner": "caliber-ai-org",
+            "repo": "ai-setup",
+            "stars": 1242
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "claude-codex-settings",
+          "description": "Dual AGENTS.md + CLAUDE.md setup for teams running both agents side-by-side.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T06:03:05Z",
+            "owner": "fcakyon",
+            "repo": "claude-codex-settings",
+            "stars": 1041
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "codex-cli-best-practice",
+          "description": "Battle-tested AGENTS.md patterns with sandbox mode recommendations and approval policies.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-04T18:46:09Z",
+            "owner": "shanraisshan",
+            "repo": "codex-cli-best-practice",
+            "stars": 964
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Ischca/awesome-agents-md",
+          "description": "Curated list of real-world AGENTS.md files, templates, guides, and tools for Codex-based agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2025-08-20T06:53:34Z",
+            "owner": "Ischca",
+            "repo": "awesome-agents-md",
+            "stars": 74
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "danielrosehill/Agents.md-Templates",
+          "description": "Collection of AGENTS.md templates following the standard suggested by OpenAI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-09-17T18:16:23Z",
+            "owner": "danielrosehill",
+            "repo": "Agents.md-Templates",
+            "stars": 9
+          }
+        }
+      ],
+      "title": "AGENTS.md Templates"
+    },
+    {
+      "description": "Multi-agent orchestration with definitions. Codex supports parallel fan-out with up to 6 threads by default.",
+      "items": [],
+      "title": "Subagents"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "VoltAgent/awesome-codex-subagents",
+          "description": "The definitive collection. 136+ agents across 10 categories (core dev, language specialists, infra, security, data/AI, DX, domains, business, meta, orchestration). Just clone and use.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-07-10T09:22:04Z",
+            "owner": "VoltAgent",
+            "repo": "awesome-codex-subagents",
+            "stars": 5964
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "betterup/codex-cli-subagents",
+          "description": "Enterprise-focused agents for code review, migration, and compliance.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-11-05T15:32:32Z",
+            "owner": "betterup",
+            "repo": "codex-cli-subagents",
+            "stars": 18
+          }
+        }
+      ],
+      "title": "Collections"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "waltstephen/ArgusBot",
+          "description": "24/7 supervisor agent that keeps Codex and Claude Code running, reviewing, and planning until tasks are done.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-26T20:19:15Z",
+            "owner": "waltstephen",
+            "repo": "ArgusBot",
+            "stars": 314
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "atticus98/codex-turbo",
+          "description": "Multi-agent parallel scheduling config templates for primary agent coordination and sub-agent distribution.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-05-28T09:45:25Z",
+            "owner": "atticus98",
+            "repo": "codex-turbo",
+            "stars": 203
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "shinpr/sub-agents-skills",
+          "description": "Cross-LLM sub-agent orchestration - routes tasks to Codex for fast refactors, Claude Code for long reasoning, Gemini for large-context analysis.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-07T13:33:40Z",
+            "owner": "shinpr",
+            "repo": "sub-agents-skills",
+            "stars": 76
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "leonardsellem/codex-specialized-subagents",
+          "description": "Niche agents: accessibility auditor, i18n extractor, performance profiler. Fills gaps VoltAgent doesn't cover.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2025-12-31T16:48:10Z",
+            "owner": "leonardsellem",
+            "repo": "codex-specialized-subagents",
+            "stars": 66
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "CoderMageFox/claudecode-codex-subagents",
+          "description": "Agents that work across both Codex and Claude Code. Good for mixed teams.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2025-11-07T10:21:24Z",
+            "owner": "CoderMageFox",
+            "repo": "claudecode-codex-subagents",
+            "stars": 49
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sehoon787/my-codex",
+          "description": "All-in-one agent harness for Codex CLI - Boss meta-orchestrator, 400+ agents, 200+ skills, 3 MCP servers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-12T08:52:14Z",
+            "owner": "sehoon787",
+            "repo": "my-codex",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Alexin09/cc-subagent-codex",
+          "description": "Lightweight subagent pack focused on TypeScript/React projects.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-03-25T02:49:25Z",
+            "owner": "Alexin09",
+            "repo": "cc-subagent-codex",
+            "stars": 17
+          }
+        }
+      ],
+      "title": "Specialized Subagents"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "ComposioHQ/agent-orchestrator",
+          "description": "Agentic orchestrator for parallel coding agents - plans tasks, spawns agents, handles CI fixes and merge conflicts autonomously.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T07:56:48Z",
+            "owner": "Untrivial-ai",
+            "repo": "agent-orchestrator",
+            "stars": 9464
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GreenSheep01201/claw-empire",
+          "description": "Local-first AI agent office simulator. Orchestrates CLI, OAuth, and API-connected agents as a virtual autonomous company.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-16T17:17:28Z",
+            "owner": "GreenSheep01201",
+            "repo": "claw-empire",
+            "stars": 1345
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mco-org/mco",
+          "description": "Neutral orchestration layer for Claude Code, Codex CLI, Gemini CLI, OpenCode, Qwen Code. Works from any IDE or shell.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-29T15:13:09Z",
+            "owner": "mco-org",
+            "repo": "mco",
+            "stars": 490
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aannoo/hcom",
+          "description": "Hierarchical agent communication framework. Agents delegate subtasks with context preservation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-09T16:52:44Z",
+            "owner": "aannoo",
+            "repo": "hcom",
+            "stars": 444
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "obra/external-subagents",
+          "description": "Run subagents as external processes with custom sandboxing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2025-12-24T23:07:15Z",
+            "owner": "obra",
+            "repo": "external-subagents",
+            "stars": 24
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "basilisk-labs/codex-swarm",
+          "description": "Swarm intelligence pattern - multiple Codex agents collaborating on large refactors.",
+          "children": []
+        }
+      ],
+      "title": "Multi-Agent Orchestration"
+    },
+    {
+      "description": "Reusable instruction bundles in format. Place in (global) or (project).",
+      "items": [],
+      "title": "Skills"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "affaan-m/everything-claude-code",
+          "description": "Performance optimization system with 36 agents and 147 skills. Has command for Codex CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-12T22:45:12Z",
+            "owner": "affaan-m",
+            "repo": "ECC",
+            "stars": 239823
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sickn33/antigravity-awesome-skills",
+          "description": "1,340+ installable skills with CLI installer, role-based bundles, and searchable catalog.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-12T15:01:35Z",
+            "owner": "sickn33",
+            "repo": "agentic-awesome-skills",
+            "stars": 44866
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "VoltAgent/awesome-agent-skills",
+          "description": "1,000+ agent skills from official dev teams and community. Works with Codex, Claude Code, Gemini CLI, Cursor.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-08-12T10:31:44Z",
+            "owner": "VoltAgent",
+            "repo": "awesome-agent-skills",
+            "stars": 30170
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "JimLiu/baoyu-skills",
+          "description": "Large curated skills repository with broad category coverage.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-04T16:25:18Z",
+            "owner": "JimLiu",
+            "repo": "baoyu-skills",
+            "stars": 24934
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "alirezarezvani/claude-skills",
+          "description": "220+ skills across engineering, marketing, compliance, C-level advisory. Works with Codex despite the name.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-09T10:35:32Z",
+            "owner": "alirezarezvani",
+            "repo": "claude-skills",
+            "stars": 24367
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ComposioHQ/awesome-codex-skills",
+          "description": "38 skills across dev tools, productivity, communication, data analysis. Heavy Composio integration for 1000+ SaaS apps.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-26T01:14:54Z",
+            "owner": "composio-community",
+            "repo": "awesome-codex-skills",
+            "stars": 15811
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "heilcheng/awesome-agent-skills",
+          "description": "Cross-platform skills that work in Codex, Claude Code, and Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-04-05T20:39:24Z",
+            "owner": "heilcheng",
+            "repo": "awesome-agent-skills",
+            "stars": 6090
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Prat011/awesome-llm-skills",
+          "description": "Platform-agnostic skills organized by use case.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-14T09:53:56Z",
+            "owner": "Prat011",
+            "repo": "awesome-llm-skills",
+            "stars": 1464
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "skillmatic-ai/awesome-agent-skills",
+          "description": "Community-driven skill marketplace with quality ratings.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-05-14T20:28:00Z",
+            "owner": "skillmatic-ai",
+            "repo": "awesome-agent-skills",
+            "stars": 652
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mxyhi/ok-skills",
+          "description": "55 curated skills and AGENTS.md playbooks: research, planning, GitHub automation, browser QA, frontend design.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-07-31T03:02:06Z",
+            "owner": "mxyhi",
+            "repo": "ok-skills",
+            "stars": 472
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "proflead/codex-skills-library",
+          "description": "Focused collection: code review, Git workflow, documentation generation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-07-29T14:32:49Z",
+            "owner": "proflead",
+            "repo": "codex-skills-library",
+            "stars": 134
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "simota/agent-skills",
+          "description": "100+ specialized AI agent skills for Claude Code / Codex CLI / Gemini CLI - dev, security, design, FinOps, compliance, testing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-08-12T06:08:35Z",
+            "owner": "simota",
+            "repo": "agent-skills",
+            "stars": 71
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gmh5225/awesome-skills",
+          "description": "Curated list of agent skills and tools for Claude Code, Codex, Gemini CLI, GitHub Copilot, and more.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-08-06T12:48:23Z",
+            "owner": "gmh5225",
+            "repo": "awesome-skills",
+            "stars": 45
+          }
+        }
+      ],
+      "title": "Collections"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Lum1104/Understand-Anything",
+          "description": "Turn any codebase into an interactive knowledge graph you can explore, search, and query. Multi-platform including Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T14:13:37Z",
+            "owner": "Egonex-AI",
+            "repo": "Understand-Anything",
+            "stars": 79152
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Mukul975/Anthropic-Cybersecurity-Skills",
+          "description": "Security-focused skills: vulnerability scanning, dependency auditing, OWASP checks. Works in Codex too despite the name.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-08T14:55:19Z",
+            "owner": "mukul975",
+            "repo": "Anthropic-Cybersecurity-Skills",
+            "stars": 27711
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "wanshuiyin/Auto-claude-code-research-in-sleep",
+          "description": "ARIS - lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, experiment automation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-11T10:58:24Z",
+            "owner": "wanshuiyin",
+            "repo": "Auto-claude-code-research-in-sleep",
+            "stars": 14626
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "deanpeters/Product-Manager-Skills",
+          "description": "Product management skills framework built on battle-tested methods for Claude Code, Codex, and AI agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-10T16:15:52Z",
+            "owner": "deanpeters",
+            "repo": "Product-Manager-Skills",
+            "stars": 6435
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Master-cai/Research-Paper-Writing-Skills",
+          "description": "ML/CV/NLP paper writing skill package curated from Prof. Peng Sida's open notes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-06-23T02:28:54Z",
+            "owner": "Master-cai",
+            "repo": "Research-Paper-Writing-Skills",
+            "stars": 6003
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "twostraws/SwiftUI-Agent-Skill",
+          "description": "SwiftUI agent skill by Paul Hudson. Covers navigation, layout, animations, state management, VoiceOver.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-04-20T08:02:42Z",
+            "owner": "twostraws",
+            "repo": "SwiftUI-Agent-Skill",
+            "stars": 4452
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dimillian/Skills",
+          "description": "Codex skills by Thomas Ricouard: App Store changelog, iOS debugging, macOS packaging, SwiftUI perf audits.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-03-29T15:28:02Z",
+            "owner": "Dimillian",
+            "repo": "Skills",
+            "stars": 3901
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "white0dew/XiaohongshuSkills",
+          "description": "Xiaohongshu (Little Red Book) auto-publish, auto-comment, auto-search skill for Codex and Claude Code.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T04:20:38Z",
+            "owner": "white0dew",
+            "repo": "XiaohongshuSkills",
+            "stars": 3316
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ljagiello/ctf-skills",
+          "description": "Agent skills for CTF challenges - web exploitation, binary pwn, crypto, reverse engineering, forensics, OSINT.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-31T05:29:42Z",
+            "owner": "ljagiello",
+            "repo": "ctf-skills",
+            "stars": 2973
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "badlogic/pi-skills",
+          "description": "Skills for Pi coding agent, compatible with Claude Code and Codex CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-06-06T20:27:56Z",
+            "owner": "badlogic",
+            "repo": "pi-skills",
+            "stars": 2370
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "leo-lilinxiao/codex-autoresearch",
+          "description": "Self-directed iterative research skill that continuously cycles through modify, verify, and improve.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-13T13:53:30Z",
+            "owner": "leo-lilinxiao",
+            "repo": "codex-autoresearch",
+            "stars": 2125
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "callstackincubator/agent-skills",
+          "description": "Agent-optimized React Native skills by Callstack: best practices, optimization, upgrade workflows.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-08T04:42:24Z",
+            "owner": "callstackincubator",
+            "repo": "agent-skills",
+            "stars": 1602
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dpearson2699/swift-ios-skills",
+          "description": "76 agent skills for iOS 26+, Swift 6.3, SwiftUI, and modern Apple frameworks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-31T20:22:45Z",
+            "owner": "dpearson2699",
+            "repo": "swift-ios-skills",
+            "stars": 990
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Bhanunamikaze/Agentic-SEO-Skill",
+          "description": "LLM-first SEO analysis with 16 sub-skills, 10 specialist agents, and 33 utility scripts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-23T17:33:41Z",
+            "owner": "Bhanunamikaze",
+            "repo": "Agentic-SEO-Skill",
+            "stars": 836
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Upskill",
+          "description": "Hugging Face's official skill pack for ML/AI development workflows.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-05-26T10:34:22Z",
+            "owner": "huggingface",
+            "repo": "upskill",
+            "stars": 725
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aldefy/compose-skill",
+          "description": "Jetpack Compose agent skill with actual androidx source code receipts. Works with Codex CLI, Claude Code, Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Kotlin",
+            "last_commit": "2026-07-23T05:37:50Z",
+            "owner": "aldefy",
+            "repo": "compose-skill",
+            "stars": 566
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "codexstar69/bug-hunter",
+          "description": "Adversarial AI bug hunter with auto-fix - multi-agent pipeline finds security vulnerabilities, logic errors, and runtime bugs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-03T20:45:08Z",
+            "owner": "codexstar69",
+            "repo": "bug-hunter",
+            "stars": 482
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nicepkg/ai-workflow",
+          "description": "Workflow automation skills - chained multi-step tasks with conditional logic.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-01-20T08:50:30Z",
+            "owner": "nicepkg",
+            "repo": "ai-workflow",
+            "stars": 277
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "SkyworkAI/Skywork-Skills",
+          "description": "Agent skills for AI office suites: PPT, Document, Excel, Image, Search, Music.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-02T03:08:45Z",
+            "owner": "SkyworkAI",
+            "repo": "Skywork-Skills",
+            "stars": 197
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cathrynlavery/codex-skill",
+          "description": "Clean, well-documented single-purpose skills. Good reference for writing your own.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-07-09T21:54:25Z",
+            "owner": "cathrynlavery",
+            "repo": "codex-skill",
+            "stars": 190
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Karanjot786/agent-skills-cli",
+          "description": "CLI tool to discover, install, and manage skills from the community.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-17T08:02:45Z",
+            "owner": "Karanjot786",
+            "repo": "agent-skills-cli",
+            "stars": 177
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "voidful/academic-skills",
+          "description": "Complete academic research skill suite for Claude Code, Codex CLI, and Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TeX",
+            "last_commit": "2026-04-04T08:24:12Z",
+            "owner": "voidful",
+            "repo": "academic-skills",
+            "stars": 118
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mrvladd-d/memobank",
+          "description": "Agent-first Memory Bank skill pack for Codex CLI, Claude Code, and similar runtimes.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-06-02T22:02:10Z",
+            "owner": "mrvladd-d",
+            "repo": "memobank",
+            "stars": 53
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Gitmaxd/deepagents-cli-codex-skill",
+          "description": "Deep Agents CLI skill - scaffolds Codex skills and launches production subagent pipelines.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-02-23T01:51:51Z",
+            "owner": "Gitmaxd",
+            "repo": "deepagents-cli-codex-skill",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "legendaryvibecoder/gigabrain",
+          "description": "Local-first memory layer for Codex CLI: capture, recall, dedupe, and native sync across sessions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-07T12:33:16Z",
+            "owner": "legendaryvibecoder",
+            "repo": "gigabrain",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "Specialized Skills"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "runkids/skillshare",
+          "description": "CLI to sync skills across 55+ AI CLI tools from a single source. Security-audited Go binary.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-10T02:12:43Z",
+            "owner": "runkids",
+            "repo": "skillshare",
+            "stars": 2538
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Shpigford/chops",
+          "description": "macOS app to browse, edit, and manage skills across Claude Code, Cursor, Codex, and more.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-04-29T00:33:16Z",
+            "owner": "Shpigford",
+            "repo": "chops",
+            "stars": 1530
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dimillian/CodexSkillManager",
+          "description": "macOS SwiftUI app to manage local Codex and Claude Code skills. Browse and download from Clawdhub.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-01-18T15:22:05Z",
+            "owner": "Dimillian",
+            "repo": "CodexSkillManager",
+            "stars": 1368
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jiweiyeah/Skills-Manager",
+          "description": "Cross-platform desktop app (Tauri 2.0 + React 19 + Rust) for managing skills across multiple AI tools.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-10T06:41:43Z",
+            "owner": "jiweiyeah",
+            "repo": "Skills-Manager",
+            "stars": 933
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "aiskillstore/marketplace",
+          "description": "Security-audited skills marketplace. One-click install with automated security analysis.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T01:17:29Z",
+            "owner": "aiskillstore",
+            "repo": "marketplace",
+            "stars": 408
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DargonLee/skill-switch",
+          "description": "Cross-platform desktop app for managing AI tool skill files - unified interface for Codex CLI, Claude Code, Gemini CLI, Cursor.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-01T04:47:56Z",
+            "owner": "DargonLee",
+            "repo": "skill-switch",
+            "stars": 57
+          }
+        }
+      ],
+      "title": "Skills Management"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "aklofas/kicad-happy",
+          "description": "KiCad PCB design assistant. Proof that skills can go deep into niche domains.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-01T20:44:02Z",
+            "owner": "aklofas",
+            "repo": "kicad-happy",
+            "stars": 952
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Frankieli123/grok-skill",
+          "description": "Log analysis and pattern matching. Useful for debugging production issues.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-13T18:08:06Z",
+            "owner": "Frankieli123",
+            "repo": "grok-skill",
+            "stars": 178
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "qtzx06/yolodex",
+          "description": "Computer vision / YOLO model training workflow.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-08T05:07:33Z",
+            "owner": "qtzx06",
+            "repo": "yolodex",
+            "stars": 92
+          }
+        }
+      ],
+      "title": "Domain-Specific Skills"
+    },
+    {
+      "description": "Distributable bundles combining skills + app integrations + MCP servers. Defined in . Browse with .",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "EveryInc/compound-engineering-plugin",
+          "description": "Compound Engineering plugin for Claude Code, Codex, and more. Structured multi-agent workflows.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T07:51:36Z",
+            "owner": "EveryInc",
+            "repo": "compound-engineering-plugin",
+            "stars": 24220
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agent-sh/agentsys",
+          "description": "Plugin framework with dependency resolution and version management.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-07-26T20:50:54Z",
+            "owner": "agent-sh",
+            "repo": "agentsys",
+            "stars": 964
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "hashgraph-online/awesome-codex-plugins",
+          "description": "The first plugin directory. Lists 12 official + ~20 community plugins with install instructions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-10T16:32:40Z",
+            "owner": "hashgraph-online",
+            "repo": "awesome-codex-plugins",
+            "stars": 798
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "regenrek/codex-1up",
+          "description": "Bootstrap tool that installs Codex CLI plus curated power tools and an AGENTS.md template. Three profiles: balanced, safe, yolo.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-02-19T21:59:34Z",
+            "owner": "regenrek",
+            "repo": "codex-1up",
+            "stars": 435
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "xmm/codex-bmad-skills",
+          "description": "BMAD methodology plugin - structured planning, design, and implementation workflow.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-05-19T09:31:15Z",
+            "owner": "xmm",
+            "repo": "codex-bmad-skills",
+            "stars": 46
+          }
+        }
+      ],
+      "title": "Plugins"
+    },
+    {
+      "description": "User-defined shell scripts that run at specific points in the agentic loop. Requires feature flag.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Yeachan-Heo/oh-my-codex",
+          "description": "OmX (Oh My codeX) - add hooks, agent teams, HUDs, and more to your Codex CLI. The most popular hooks framework.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T05:56:06Z",
+            "owner": "Yeachan-Heo",
+            "repo": "oh-my-codex",
+            "stars": 32637
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PeonPing/peon-ping",
+          "description": "Warcraft III Peon voice notifications for Codex, Claude Code, and IDEs. Stop babysitting your terminal.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-10T01:08:32Z",
+            "owner": "PeonPing",
+            "repo": "peon-ping",
+            "stars": 4992
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "shanraisshan/codex-cli-hooks",
+          "description": "Starter hooks collection: pre-commit validation, cost tracking, notification triggers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-06-04T15:35:07Z",
+            "owner": "shanraisshan",
+            "repo": "codex-cli-hooks",
+            "stars": 66
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vcz-Gray/loophaus",
+          "description": "Cross-platform iterative development loops via Stop hooks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-04-29T21:52:02Z",
+            "owner": "vcz-Gray",
+            "repo": "loophaus",
+            "stars": 25
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "liewcf/codex-notify-macos",
+          "description": "macOS notification hook - get alerted when long-running tasks complete.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-02-26T08:38:19Z",
+            "owner": "liewcf",
+            "repo": "codex-notify-macos",
+            "stars": 4
+          }
+        }
+      ],
+      "title": "Hooks"
+    },
+    {
+      "description": "Codex can connect to MCP servers (as client) and expose itself as an MCP server ().",
+      "items": [],
+      "title": "MCP Servers"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "DeusData/codebase-memory-mcp",
+          "description": "Persistent project memory across sessions. Codex remembers decisions, patterns, and context.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C",
+            "last_commit": "2026-08-13T01:16:50Z",
+            "owner": "DeusData",
+            "repo": "codebase-memory-mcp",
+            "stars": 38749
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tuannvm/codex-mcp-server",
+          "description": "General-purpose MCP server for Codex with file operations, web search, and database queries.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-25T02:12:58Z",
+            "owner": "tuannvm",
+            "repo": "codex-mcp-server",
+            "stars": 617
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+          "description": "Web search MCP with rate limiting and caching.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-29T15:55:04Z",
+            "owner": "Shelpuk-AI-Technology-Consulting",
+            "repo": "kindly-web-search-mcp-server",
+            "stars": 371
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "milisp/mcp-linker",
+          "description": "Link multiple MCP servers together. Chain tools across servers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-17T13:53:43Z",
+            "owner": "milisp",
+            "repo": "mcp-linker",
+            "stars": 319
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Wildcard-Official/deepcontext-mcp",
+          "description": "Codebase understanding server - builds semantic index for smarter code navigation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2025-09-22T23:35:55Z",
+            "owner": "Wildcard-Official",
+            "repo": "deepcontext-mcp",
+            "stars": 275
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cexll/codex-mcp-server",
+          "description": "Lightweight MCP server with minimal dependencies. Good starting point for custom servers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-06T09:07:41Z",
+            "owner": "cexll",
+            "repo": "codex-mcp-server",
+            "stars": 178
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "FYZAFH/mcp-codex-dev",
+          "description": "Development-focused MCP server: linting, testing, deployment tools.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-02-23T17:03:41Z",
+            "owner": "FYZAFH",
+            "repo": "mcp-codex-dev",
+            "stars": 165
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "xiaolai/codex-octopus",
+          "description": "One brain, many arms - spawns multiple specialized Codex agents as MCP servers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-07T06:19:57Z",
+            "owner": "xiaolai",
+            "repo": "codex-octopus",
+            "stars": 17
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "karad/seiro-mcp",
+          "description": "MCP server and skills for autonomous build workflows for visionOS (Swift) apps using Codex CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-07T02:09:54Z",
+            "owner": "karad",
+            "repo": "seiro-mcp",
+            "stars": 16
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "vanthienha199/agent-cost-mcp",
+          "description": "MCP server for tracking AI agent costs in real time - per-message spending, budget alerts, visual dashboard.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-03-27T13:42:52Z",
+            "owner": "vanthienha199",
+            "repo": "agent-cost-mcp",
+            "stars": 1
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "salparadi-labs/brain",
+          "description": "Persistent memory MCP server for Codex sessions - stores decisions, tasks, preferences in SQLite.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-27T16:29:04Z",
+            "owner": "salparadi-labs",
+            "repo": "brain",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "Codex as MCP Client"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "leonardsellem/codex-subagents-mcp",
+          "description": "Expose Codex subagents as MCP tools. Other agents (Claude Code, Cursor) can call Codex agents.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "JavaScript",
+            "last_commit": "2025-12-29T18:43:28Z",
+            "owner": "leonardsellem",
+            "repo": "codex-subagents-mcp",
+            "stars": 161
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "agency-ai-solutions/openai-codex-mcp",
+          "description": "Full-featured Codex MCP bridge with streaming support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-04-18T04:20:13Z",
+            "owner": "agency-ai-solutions",
+            "repo": "openai-codex-mcp",
+            "stars": 51
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ching-kuo/claude-codex",
+          "description": "Claude Code workflow integrating Codex as an MCP server - plan, implement, and review loops with smart routing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": null,
+            "last_commit": "2026-04-01T06:34:56Z",
+            "owner": "ching-kuo",
+            "repo": "claude-codex",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Mr-Tomahawk/codex-cli-mcp-tool",
+          "description": "Wrap Codex CLI as an MCP tool for use in other agent frameworks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2025-08-19T07:26:11Z",
+            "owner": "Mr-Tomahawk",
+            "repo": "codex-cli-mcp-tool",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Leonard013/BigBrain",
+          "description": "MCP server that lets Claude Code talk to Codex (OpenAI) and Gemini (Google) CLIs for free.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-01T08:37:51Z",
+            "owner": "Leonard013",
+            "repo": "BigBrain",
+            "stars": 1
+          }
+        }
+      ],
+      "title": "Codex as MCP Server"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "PleasePrompto/notebooklm-mcp",
+          "description": "Connect Codex to NotebookLM for research-augmented coding.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-01T05:51:20Z",
+            "owner": "PleasePrompto",
+            "repo": "notebooklm-mcp",
+            "stars": 3238
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mrphrazer/agentic-malware-analysis",
+          "description": "Agentic malware analysis environment with MCP-connected disassemblers and RE tooling.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "YARA",
+            "last_commit": "2026-03-22T23:28:55Z",
+            "owner": "mrphrazer",
+            "repo": "agentic-malware-analysis",
+            "stars": 293
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dekelelz/let-them-talk",
+          "description": "MCP message broker + web dashboard for inter-agent communication. Lets Codex, Claude Code, Gemini CLI talk to each other.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-04-18T19:15:37Z",
+            "owner": "Dekelelz",
+            "repo": "let-them-talk",
+            "stars": 52
+          }
+        }
+      ],
+      "title": "General-Purpose MCP"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "folke/sidekick.nvim",
+          "description": "Neovim AI sidekick supporting Claude, Gemini, Grok, Codex, Copilot CLI and more. Built-in AI terminal.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Lua",
+            "last_commit": "2026-04-22T20:21:09Z",
+            "owner": "folke",
+            "repo": "sidekick.nvim",
+            "stars": 2730
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "xenodium/agent-shell",
+          "description": "Emacs integration that works with Codex, Claude Code, and other terminal agents. Best-in-class Emacs experience.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Emacs Lisp",
+            "last_commit": "2026-08-12T22:12:32Z",
+            "owner": "xenodium",
+            "repo": "agent-shell",
+            "stars": 1722
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "smallmain/vscode-unify-chat-provider",
+          "description": "Unify multiple AI agents (Codex, Claude, Copilot) under one VS Code chat interface.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T02:35:49Z",
+            "owner": "smallmain",
+            "repo": "vscode-unify-chat-provider",
+            "stars": 697
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tninja/ai-code-interface.el",
+          "description": "Emacs interface for multiple AI coding agents including Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Emacs Lisp",
+            "last_commit": "2026-08-13T03:35:00Z",
+            "owner": "tninja",
+            "repo": "ai-code-interface.el",
+            "stars": 268
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "johnseth97/codex.nvim",
+          "description": "Neovim plugin with floating terminal, keybindings, and context passing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Lua",
+            "last_commit": "2025-11-20T01:56:01Z",
+            "owner": "johnseth97",
+            "repo": "codex.nvim",
+            "stars": 257
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "milanglacier/yarepl.nvim",
+          "description": "REPL framework for Neovim. Supports Codex as a REPL target alongside Python, R, etc.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Lua",
+            "last_commit": "2026-08-02T00:57:53Z",
+            "owner": "milanglacier",
+            "repo": "yarepl.nvim",
+            "stars": 251
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Haleclipse/Codex-JetBrains",
+          "description": "Run VS Code-based coding agents and extensions (including Codex) seamlessly within JetBrains IDEs.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Kotlin",
+            "last_commit": "2025-12-28T20:37:32Z",
+            "owner": "Haleclipse",
+            "repo": "Codex-JetBrains",
+            "stars": 125
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dliedke/ClaudeCodeExtension",
+          "description": "Visual Studio .NET extension that supports both Claude Code and Codex CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "C#",
+            "last_commit": "2026-08-10T21:16:18Z",
+            "owner": "dliedke",
+            "repo": "ClaudeCodeExtension",
+            "stars": 66
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bennfocus/codex-cli.el",
+          "description": "Lightweight Emacs wrapper. Minimal, focused.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Emacs Lisp",
+            "last_commit": "2025-09-14T07:56:53Z",
+            "owner": "bennfocus",
+            "repo": "codex-cli.el",
+            "stars": 29
+          }
+        }
+      ],
+      "title": "IDE & Editor Integrations"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "farion1231/cc-switch",
+          "description": "Cross-platform desktop all-in-one assistant for Claude Code, Codex, OpenCode, OpenClaw, and Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T07:50:08Z",
+            "owner": "farion1231",
+            "repo": "cc-switch",
+            "stars": 126867
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "slopus/happy",
+          "description": "Mobile and web client for Codex and Claude Code with end-to-end encryption. iOS/Android, push notifications, open-source.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-10T22:17:09Z",
+            "owner": "slopus",
+            "repo": "happy",
+            "stars": 23315
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dimillian/CodexMonitor",
+          "description": "Tauri/React/Rust desktop app for orchestrating multiple Codex agents across workspaces. Multi-workspace, Git integration, prompt library.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-26T07:01:43Z",
+            "owner": "Dimillian",
+            "repo": "CodexMonitor",
+            "stars": 4229
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "just-every/code",
+          "description": "Enhanced Codex CLI fork with browser integration, multi-agent automation, Auto Drive orchestration, and theming.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-11T21:11:21Z",
+            "owner": "just-every",
+            "repo": "code",
+            "stars": 3872
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ilysenko/codex-desktop-linux",
+          "description": "Automated installer to run the OpenAI Codex Desktop app on Linux.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-13T07:33:13Z",
+            "owner": "ilysenko",
+            "repo": "codex-desktop-linux",
+            "stars": 3649
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nexu-io/nexu",
+          "description": "Local-first desktop client bridging agents to WeChat, Feishu, Slack, Discord. BYOK.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-04-26T13:40:30Z",
+            "owner": "nexu-io",
+            "repo": "nexu",
+            "stars": 3252
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "xintaofei/codeg",
+          "description": "Electron-based GUI with project templates and one-click sandboxing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T16:25:08Z",
+            "owner": "xintaofei",
+            "repo": "codeg",
+            "stars": 2682
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "The-Vibe-Company/companion",
+          "description": "Web and mobile UI for Claude Code and Codex. Launch sessions, stream responses, approve tools from browser/mobile.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-06T06:22:35Z",
+            "owner": "The-Vibe-Company",
+            "repo": "companion",
+            "stars": 2397
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dou-jiang/codex-console",
+          "description": "Integrated console for Codex: task management, batch processing, data export, auto-upload, log viewing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-06T05:59:19Z",
+            "owner": "dou-jiang",
+            "repo": "codex-console",
+            "stars": 2229
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "cnlimiter/codex-manager",
+          "description": "Desktop manager for Codex CLI with task management and batch processing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-28T08:39:44Z",
+            "owner": "cnlimiter",
+            "repo": "codex-manager",
+            "stars": 1992
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DeadWaveWave/opencove",
+          "description": "Infinite canvas workspace for agents, tasks, knowledge, and research.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T04:57:07Z",
+            "owner": "DeadWaveWave",
+            "repo": "opencove",
+            "stars": 1562
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "milisp/codexia",
+          "description": "Desktop GUI for Codex CLI. macOS/Windows/Linux. Visual session management, file tree, diff viewer.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T08:18:57Z",
+            "owner": "milisp",
+            "repo": "codexia",
+            "stars": 881
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "nkmr-jp/prompt-line",
+          "description": "Minimal prompt-centric UI. Stays out of your way.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-08T09:59:05Z",
+            "owner": "nkmr-jp",
+            "repo": "prompt-line",
+            "stars": 146
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "zhu1090093659/CodeConductor",
+          "description": "Orchestrator GUI for managing multiple Codex agents visually.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-01-26T07:54:05Z",
+            "owner": "zhu1090093659",
+            "repo": "CodeConductor",
+            "stars": 80
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "onewesong/codex-viz",
+          "description": "Local-first dashboard for Codex sessions - trends, token usage, tool insights, and word cloud from session history.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-01-27T06:35:50Z",
+            "owner": "onewesong",
+            "repo": "codex-viz",
+            "stars": 72
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Cocoanetics/CodexMonitor",
+          "description": "macOS menu bar app to list, inspect, and watch local Codex CLI sessions. Includes VS Code integration.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-02-11T17:40:28Z",
+            "owner": "Cocoanetics",
+            "repo": "CodexMonitor",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "LZY-Ricardo/AIDevHub",
+          "description": "Desktop app (Tauri v2 + Rust + React) for managing MCP server configs and skills of Claude Code and Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-05-01T16:42:10Z",
+            "owner": "LZY-Ricardo",
+            "repo": "AIDevHub",
+            "stars": 0
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Infatoshi/OpenSquirrel",
+          "description": "Native Rust/GPUI control plane for running Claude Code, Codex, Cursor, and OpenClaw without distraction.",
+          "children": []
+        }
+      ],
+      "title": "GUI & Desktop Apps"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "UfoMiao/zcf",
+          "description": "Zero-config workflow framework. Chain prompts, branch on results, auto-retry failures.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-12T18:13:00Z",
+            "owner": "UfoMiao",
+            "repo": "zcf",
+            "stars": 6076
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gotalab/cc-sdd",
+          "description": "Spec-driven development workflow. Write specs, Codex implements, auto-validates against spec.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-05-20T08:45:14Z",
+            "owner": "gotalab",
+            "repo": "cc-sdd",
+            "stars": 3618
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ryfineZ/codex-session-patcher",
+          "description": "Lightweight Python tool to clean AI refusal responses from Codex CLI session files.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-02T18:35:59Z",
+            "owner": "ryfineZ",
+            "repo": "codex-session-patcher",
+            "stars": 2552
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "standardagents/dmux",
+          "description": "Dev agent multiplexer: isolated tmux pane + Git worktree per task. Supports 11+ agents including Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-07-09T03:18:48Z",
+            "owner": "standardagents",
+            "repo": "dmux",
+            "stars": 1737
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "covibes/zeroshot",
+          "description": "Zero-shot task runner. Describe what you want in plain English, get a working codebase.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-13T06:58:36Z",
+            "owner": "the-open-engine",
+            "repo": "zeroshot",
+            "stars": 1700
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kbwo/ccmanager",
+          "description": "TUI session manager for Claude Code / Gemini CLI / Codex CLI / Cursor Agent / Copilot CLI / OpenCode and more.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-10T13:41:56Z",
+            "owner": "kbwo",
+            "repo": "ccmanager",
+            "stars": 1218
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Dicklesworthstone/coding_agent_session_search",
+          "description": "Unified TUI and CLI to index and search local coding agent session history across 11+ providers including Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T18:50:41Z",
+            "owner": "Dicklesworthstone",
+            "repo": "coding_agent_session_search",
+            "stars": 1060
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "es617/claude-replay",
+          "description": "Convert AI coding agent sessions (Claude Code, Cursor, Codex) into self-contained, embeddable HTML replays.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-09T11:39:19Z",
+            "owner": "es617",
+            "repo": "claude-replay",
+            "stars": 801
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "mixpeek/amux",
+          "description": "Open-source agent multiplexer. Run dozens of parallel Codex/Claude agents unattended via tmux. Self-healing watchdog.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-08-13T06:30:55Z",
+            "owner": "mixpeek",
+            "repo": "amux",
+            "stars": 345
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Fr-e-d/GAAI-framework",
+          "description": "Drop a folder into any project to turn AI coding tools into reliable delivery systems. Markdown + YAML + bash.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-11T20:12:50Z",
+            "owner": "Fr-e-d",
+            "repo": "GAAI-framework",
+            "stars": 158
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "GreenSheep01201/Claw-Kanban",
+          "description": "AI Agent Orchestration Kanban Board. Route tasks to Claude Code, Codex CLI, and Gemini CLI with role-based auto-assignment.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-02-15T13:52:39Z",
+            "owner": "GreenSheep01201",
+            "repo": "Claw-Kanban",
+            "stars": 72
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "2ue/ccman",
+          "description": "Tool for managing Claude Code + Codex API + Gemini CLI + OpenCode service provider configurations.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-06-23T13:34:32Z",
+            "owner": "2ue",
+            "repo": "ccman",
+            "stars": 51
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "re-cinq/shift-log",
+          "description": "Automatically saves coding agents' conversations in Git Notes. Works with Codex, Claude Code, Gemini CLI, OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T07:40:36Z",
+            "owner": "re-cinq",
+            "repo": "shift-log",
+            "stars": 48
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "waskosky/codex-cli-farm",
+          "description": "Run multiple Codex instances in parallel on different tasks. Session isolation built-in.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-03T21:36:17Z",
+            "owner": "waskosky",
+            "repo": "agent-cli-farm",
+            "stars": 34
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "joseferben/hands-please",
+          "description": "Human-in-the-loop workflow. Codex pauses at decision points and asks for your input.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T22:35:13Z",
+            "owner": "joseferben",
+            "repo": "hands-please",
+            "stars": 33
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lsm1103/session-dashboard",
+          "description": "Browse and monitor historical session records of AI programming tools (Claude Code, Codex CLI, Cursor, Aider).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-18T04:05:53Z",
+            "owner": "lsm1103",
+            "repo": "session-dashboard",
+            "stars": 16
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "yazcaleb/rses",
+          "description": "Cross-resume between Claude Code, Codex CLI, and OpenCode. Pick up where one AI left off in another.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-03-26T10:45:55Z",
+            "owner": "yazcaleb",
+            "repo": "rses",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "manitofigh/codex-share",
+          "description": "Share and view Codex CLI conversations in the web.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Svelte",
+            "last_commit": "2026-03-19T03:44:54Z",
+            "owner": "manitofigh",
+            "repo": "codex-share",
+            "stars": 7
+          }
+        }
+      ],
+      "title": "Session & Workflow Management"
+    },
+    {
+      "description": "Codex supports for custom model providers. Use any OpenAI-compatible API.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "router-for-me/CLIProxyAPI",
+          "description": "Wrap Codex, Claude Code, Gemini CLI as OpenAI-compatible API endpoints. Multi-account load balancing, streaming.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T07:22:03Z",
+            "owner": "router-for-me",
+            "repo": "CLIProxyAPI",
+            "stars": 47116
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "icebear0828/codex-proxy",
+          "description": "Lightweight local relay that converts Codex Desktop's Responses API to multiple protocol interfaces (OpenAI, Anthropic, Gemini).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-13T05:42:17Z",
+            "owner": "icebear0828",
+            "repo": "codex-proxy",
+            "stars": 1665
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lich0821/ccNexus",
+          "description": "Intelligent API gateway for Claude Code and Codex CLI. Rotate endpoints, monitor usage, seamlessly integrate OpenAI, Gemini, and others.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-28T07:54:08Z",
+            "owner": "lich0821",
+            "repo": "ccNexus",
+            "stars": 980
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "codingmoh/open-codex",
+          "description": "Open-source Codex-inspired CLI running 100% locally with Ollama. No API key required, offline capable.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-07-07T02:35:33Z",
+            "owner": "codingmoh",
+            "repo": "open-codex",
+            "stars": 696
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "feiskyer/codex-settings",
+          "description": "Ready-to-use configs for LiteLLM, Ollama, LM Studio, OpenRouter, and Azure OpenAI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-06T06:21:48Z",
+            "owner": "feiskyer",
+            "repo": "codex-settings",
+            "stars": 232
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "erans/lunaroute",
+          "description": "Model router with cost tracking, rate limiting, and fallback chains.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-27T01:59:38Z",
+            "owner": "erans",
+            "repo": "lunaroute",
+            "stars": 185
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "teabranch/open-responses-server",
+          "description": "OpenAI Responses API-compatible server. Run Codex with local models.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-04-08T22:27:07Z",
+            "owner": "teabranch",
+            "repo": "open-responses-server",
+            "stars": 184
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ben-vargas/ai-sdk-provider-codex-cli",
+          "description": "Vercel AI SDK provider for Codex. Use Codex in your AI applications.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-23T02:59:33Z",
+            "owner": "ben-vargas",
+            "repo": "ai-sdk-provider-codex-cli",
+            "stars": 67
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "maksimzayats/acodex",
+          "description": "Typed Python SDK for the Codex CLI (sync/async, streaming JSONL events, structured items).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-11T12:34:26Z",
+            "owner": "maksimzayats",
+            "repo": "acodex",
+            "stars": 57
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lzjever/air-gapped",
+          "description": "Portable Codex CLI + vLLM for air-gapped/offline use.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-03-02T20:12:17Z",
+            "owner": "lzjever",
+            "repo": "air-gapped",
+            "stars": 26
+          }
+        }
+      ],
+      "title": "Model Providers & Proxies"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Patterns"
+    },
+    {
+      "description": "Tools that bridge Codex with other AI coding agents.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "chenhg5/cc-connect",
+          "description": "Bridge Codex/Claude Code to 10 messaging platforms (Telegram, Slack, DingTalk, WeChat Work, LINE). No public IP required.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-13T04:52:49Z",
+            "owner": "chenhg5",
+            "repo": "cc-connect",
+            "stars": 14889
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bfly123/claude_code_bridge",
+          "description": "Real-time multi-AI collaboration: Claude, Codex, Gemini in simultaneous split-pane sessions with persistent context.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-13T05:45:25Z",
+            "owner": "SeemSeam",
+            "repo": "claude_codex_bridge",
+            "stars": 3406
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "op7418/Claude-to-IM-skill",
+          "description": "Bridge Claude Code / Codex to IM platforms. Chat with AI coding agents from Telegram, Discord, or Feishu/Lark.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-23T17:03:44Z",
+            "owner": "op7418",
+            "repo": "Claude-to-IM-skill",
+            "stars": 2855
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "AgentsMesh/AgentsMesh",
+          "description": "AI Agent Fleet Command Center. Orchestrate Codex, Claude Code, Gemini CLI, Aider from a single platform with Kanban and SSO/RBAC.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-08-03T11:45:02Z",
+            "owner": "AgentsMesh",
+            "repo": "AgentsMesh",
+            "stars": 2306
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "catlog22/Claude-Code-Workflow",
+          "description": "JSON-driven multi-agent cadence-team development framework with intelligent CLI orchestration (Gemini/Qwen/Codex).",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": "TypeScript",
+            "last_commit": "2026-06-18T07:03:47Z",
+            "owner": "catlog22",
+            "repo": "Claude-Code-Workflow",
+            "stars": 2138
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "pchalasani/claude-code-tools",
+          "description": "Practical productivity tools for Claude Code and Codex CLI: session management, terminal automation, voice integration.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-08T11:29:24Z",
+            "owner": "pchalasani",
+            "repo": "claude-code-tools",
+            "stars": 1974
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DeepMyst/Mysti",
+          "description": "Universal agent orchestrator. Route tasks between Codex, Claude Code, and Gemini CLI based on model strengths.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-07-05T16:42:04Z",
+            "owner": "DeepMyst",
+            "repo": "Mysti",
+            "stars": 1118
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "josstei/maestro-orchestrate",
+          "description": "Multi-agent orchestration platform for Gemini CLI, Claude Code, and Codex - 22 specialists, parallel subagents, persistent sessions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-08-07T07:00:06Z",
+            "owner": "josstei",
+            "repo": "maestro-orchestrate",
+            "stars": 455
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "dsifry/metaswarm",
+          "description": "Self-improving multi-agent orchestration: 18 agents, 13 skills, TDD enforcement, quality gates.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-06-19T22:25:29Z",
+            "owner": "dsifry",
+            "repo": "metaswarm",
+            "stars": 389
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "oil-oil/codex",
+          "description": "Claude Code skill for delegating coding tasks to Codex CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PowerShell",
+            "last_commit": "2026-08-04T14:39:51Z",
+            "owner": "oil-oil",
+            "repo": "codex",
+            "stars": 90
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "athola/skrills",
+          "description": "Cross-platform skill format. Write once, use in Codex and Claude Code.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-18T22:15:21Z",
+            "owner": "athola",
+            "repo": "skrills",
+            "stars": 69
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "abhishekgahlot2/codex-claude-bridge",
+          "description": "Run Codex and Claude Code in tandem on the same codebase.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-22T16:08:01Z",
+            "owner": "abhishekgahlot2",
+            "repo": "codex-claude-bridge",
+            "stars": 52
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sypsyp97/claude-skill-codex",
+          "description": "Run Codex CLI as a Claude Code skill.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "language": null,
+            "last_commit": "2026-03-15T11:33:38Z",
+            "owner": "sypsyp97",
+            "repo": "claude-skill-codex",
+            "stars": 39
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "lbb00/ai-rules-sync",
+          "description": "Sync AGENTS.md ↔ CLAUDE.md ↔ .cursorrules. One source, all formats.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-16T06:36:00Z",
+            "owner": "lbb00",
+            "repo": "ai-rules-sync",
+            "stars": 35
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "jcputney/agent-peer-review",
+          "description": "Codex reviews Claude Code's output (and vice versa). Catches model-specific blind spots.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-06T17:01:18Z",
+            "owner": "jcputney",
+            "repo": "agent-peer-review",
+            "stars": 33
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Leoyang183/sync-agents-settings",
+          "description": "Sync MCP server configs from Claude Code to Gemini CLI, Codex CLI, OpenCode, Kiro, Cursor. One command, all agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-03-30T03:03:58Z",
+            "owner": "Leoyang183",
+            "repo": "sync-agents-settings",
+            "stars": 8
+          }
+        }
+      ],
+      "title": "Cross-Agent Tools"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "steipete/CodexBar",
+          "description": "macOS menu bar app showing usage stats for Codex, Claude, Cursor, Gemini without login. On-device parsing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-13T07:44:14Z",
+            "owner": "steipete",
+            "repo": "CodexBar",
+            "stars": 20019
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ryoppippi/ccusage",
+          "description": "CLI for analyzing Codex/Claude Code usage from local JSONL files. Daily/monthly reports, cost breakdown, MCP server mode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T03:00:37Z",
+            "owner": "ccusage",
+            "repo": "ccusage",
+            "stars": 17888
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "junhoyeo/tokscale",
+          "description": "CLI + TUI + web dashboard tracking token usage across 16+ AI coding platforms. Rust core, contribution graphs, leaderboard.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T01:03:26Z",
+            "owner": "junhoyeo",
+            "repo": "tokscale",
+            "stars": 4928
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "graykode/abtop",
+          "description": "Like htop but for AI coding agents. Monitor Claude Code and Codex CLI sessions, tokens, context window, rate limits in real-time.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-27T03:52:44Z",
+            "owner": "graykode",
+            "repo": "abtop",
+            "stars": 3442
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "fahd09/watchtower",
+          "description": "Monitor, inspect, and debug all API traffic between AI coding agents and their APIs with a real-time web dashboard.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "HTML",
+            "last_commit": "2026-07-12T23:34:19Z",
+            "owner": "fahd09",
+            "repo": "watchtower",
+            "stars": 66
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "NihilDigit/waybar-ai-usage",
+          "description": "Waybar widget showing real-time Codex token usage and costs. Linux desktop integration.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-08-06T06:45:18Z",
+            "owner": "NihilDigit",
+            "repo": "waybar-ai-usage",
+            "stars": 49
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "yoavf/ai-sessions-mcp",
+          "description": "MCP server that tracks session history, token usage, and cost across agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-02-11T18:32:25Z",
+            "owner": "yoavf",
+            "repo": "ai-sessions-mcp",
+            "stars": 28
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "HizTam/codex-history-viewer",
+          "description": "Browse and search past Codex sessions with full context.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-11T03:08:34Z",
+            "owner": "HizTam",
+            "repo": "codex-history-viewer",
+            "stars": 25
+          }
+        }
+      ],
+      "title": "Monitoring & Analytics"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Codex Universal",
+          "description": "Official Docker base image. Pre-configured sandbox, multi-language support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Dockerfile",
+            "last_commit": "2026-05-02T20:28:32Z",
+            "owner": "openai",
+            "repo": "codex-universal",
+            "stars": 1014
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "DeepBlueDynamics/gnosis-container",
+          "description": "Codex CLI in Docker with 275+ MCP tools, cron/file-watcher/webhook triggers, multi-model support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-02-26T09:35:05Z",
+            "owner": "DeepBlueDynamics",
+            "repo": "gnosis-container",
+            "stars": 111
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "libops/cli-sandbox",
+          "description": "Docker sandbox container for Claude Code, Codex, Gemini CLI, and OpenCode.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-12T05:07:49Z",
+            "owner": "libops",
+            "repo": "cli-sandbox",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "itscooleric/clide",
+          "description": "Dockerized agentic terminal - Claude Code, Copilot, Codex CLI in one sandboxed container with egress firewall and web terminal.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-04-23T02:32:44Z",
+            "owner": "itscooleric",
+            "repo": "clide",
+            "stars": 2
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "monkeymonk/agentbox",
+          "description": "Runtime manager for AI coding tools (including Codex) in isolated Docker containers - network filtering, config layering, context injection.",
+          "children": []
+        }
+      ],
+      "title": "Docker & Sandboxing"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "jlcodes99/cockpit-tools",
+          "description": "Universal AI IDE account manager for Codex, GitHub Copilot, Windsurf, Kiro, Cursor, Gemini CLI. Multi-account switching, quota monitoring.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-13T05:35:07Z",
+            "owner": "jlcodes99",
+            "repo": "cockpit-tools",
+            "stars": 15653
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "qxcnm/Codex-Manager",
+          "description": "Codex CLI account management and switching tool with local gateway forwarding.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-12T13:10:52Z",
+            "owner": "qxcnm",
+            "repo": "Codex-Manager",
+            "stars": 2894
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Loongphy/codex-auth",
+          "description": "CLI to switch and manage multiple Codex accounts with usage stats and automatic switching.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Zig",
+            "last_commit": "2026-07-23T08:31:34Z",
+            "owner": "Loongphy",
+            "repo": "codex-auth",
+            "stars": 2471
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "numman-ali/opencode-openai-codex-auth",
+          "description": "Use your ChatGPT Plus/Pro subscription as a Codex auth source. The most popular auth tool.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-01-09T14:00:49Z",
+            "owner": "numman-ali",
+            "repo": "opencode-openai-codex-auth",
+            "stars": 2176
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Lampese/codex-switcher",
+          "description": "Switch between multiple OpenAI accounts. Useful for work/personal separation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-07-27T00:06:39Z",
+            "owner": "Lampese",
+            "repo": "codex-switcher",
+            "stars": 622
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "burakdede/aisw",
+          "description": "AI Switcher (aisw) - CLI utility to manage multiple accounts for Claude Code, Codex CLI, and Gemini CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-08-09T11:39:10Z",
+            "owner": "burakdede",
+            "repo": "aisw",
+            "stars": 96
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bashar94/codex-cli-account-switcher",
+          "description": "Simple account switcher with profile support.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-04-19T10:26:48Z",
+            "owner": "bashar94",
+            "repo": "codex-cli-account-switcher",
+            "stars": 83
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "bddiudiu/cpa-codex-auth-sweep-cliproxy",
+          "description": "Auth proxy for enterprise SSO environments.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-03-04T01:52:14Z",
+            "owner": "bddiudiu",
+            "repo": "cpa-codex-auth-sweep-cliproxy",
+            "stars": 28
+          }
+        }
+      ],
+      "title": "Account & Auth"
+    },
+    {
+      "description": "Know a great video or podcast episode about Codex CLI? Submit it!",
+      "items": [],
+      "title": "Videos & Podcasts"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Comparisons"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "Codex CLI vs Claude Code vs Gemini CLI"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "tom-doerr/zsh_codex",
+          "description": "Zsh plugin for AI-powered command completion using Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2025-03-22T23:56:40Z",
+            "owner": "tom-doerr",
+            "repo": "zsh_codex",
+            "stars": 1734
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "kunal12203/Codex-CLI-Compact",
+          "description": "Stripped-down Codex binary. Smaller install, faster startup.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "PowerShell",
+            "last_commit": "2026-08-04T16:48:06Z",
+            "owner": "kunal12203",
+            "repo": "GrapeRoot",
+            "stars": 1021
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "sadjow/codex-cli-nix",
+          "description": "Nix flake for reproducible Codex CLI installation.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-08-13T07:35:07Z",
+            "owner": "sadjow",
+            "repo": "codex-cli-nix",
+            "stars": 143
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "tom-doerr/codex.fish",
+          "description": "Fish shell plugin for AI-powered command completion using Codex.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2024-04-20T20:08:25Z",
+            "owner": "tom-doerr",
+            "repo": "codex.fish",
+            "stars": 86
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "gravtice/ohmyzsh-ai-cli-plugins",
+          "description": "Oh My Zsh plugins for AI coding agents.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2026-03-05T03:58:43Z",
+            "owner": "gravtice",
+            "repo": "ohmyzsh-ai-cli-plugins",
+            "stars": 19
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MengnanTech/SplitMux",
+          "description": "macOS terminal multiplexer with Claude Code and Codex CLI agent integration.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-04-11T05:50:38Z",
+            "owner": "MengnanTech",
+            "repo": "SplitMux",
+            "stars": 13
+          }
+        }
+      ],
+      "title": "Shell & Terminal"
+    },
+    {
+      "description": "",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Emanuele-web04/remodex",
+          "description": "Local-first iOS app + Mac bridge for remote Codex control. Encrypted sessions, Git integration, App Store available.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Swift",
+            "last_commit": "2026-08-10T15:35:01Z",
+            "owner": "Emanuele-web04",
+            "repo": "remodex",
+            "stars": 3283
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "K9i-0/ccpocket",
+          "description": "Access Codex from mobile devices via web UI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Dart",
+            "last_commit": "2026-08-10T09:20:53Z",
+            "owner": "K9i-0",
+            "repo": "ccpocket",
+            "stars": 1027
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "PleasePrompto/ductor",
+          "description": "Control Claude Code, Codex CLI, and Gemini CLI from Telegram. Live streaming, persistent memory, cron jobs, webhooks, Docker sandboxing.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Python",
+            "last_commit": "2026-07-23T07:44:52Z",
+            "owner": "PleasePrompto",
+            "repo": "ductor",
+            "stars": 449
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "ShunmeiCho/cc-clip",
+          "description": "Paste images into remote Claude Code and Codex CLI over SSH. Clipboard bridging for macOS and Windows.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Go",
+            "last_commit": "2026-07-28T19:05:48Z",
+            "owner": "ShunmeiCho",
+            "repo": "cc-clip",
+            "stars": 135
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "demoadminjie/codex-wechat",
+          "description": "WeChat bridge for controlling local Codex CLI.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "JavaScript",
+            "last_commit": "2026-04-24T03:02:01Z",
+            "owner": "demoadminjie",
+            "repo": "codex-wechat",
+            "stars": 83
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "Headcrab/telecodex",
+          "description": "Telegram bridge for running local Codex CLI remotely with topic-aware sessions, attachments, and streamed replies.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Rust",
+            "last_commit": "2026-06-14T03:25:37Z",
+            "owner": "Headcrab",
+            "repo": "telecodex",
+            "stars": 53
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "chuvadenovembro/script-to-use-codex-cli-on-remote-server",
+          "description": "Headless server setup guide with auth workarounds.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "Shell",
+            "last_commit": "2025-08-31T14:07:00Z",
+            "owner": "chuvadenovembro",
+            "repo": "script-to-use-codex-cli-on-remote-server-without-visual-environment",
+            "stars": 47
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "MackDing/CodexClaw",
+          "description": "Telegram bot that proxies commands to a remote Codex instance.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "language": "TypeScript",
+            "last_commit": "2026-08-06T07:59:18Z",
+            "owner": "MackDing",
+            "repo": "CodexClaw",
+            "stars": 34
+          }
+        }
+      ],
+      "title": "Remote Access"
+    },
+    {
+      "description": "Contributions welcome! Please read the contribution guidelines first.\n\nTo the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.",
+      "items": [],
+      "title": "Contributing"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T07:58:30.314Z",
+    "original_repository": "RoggeOhta/awesome-codex-cli",
+    "original_repository_sha": "d23a32088dd2a7e502bee99737ac6f42d67f132d",
+    "enhanced_repository": "enhansome/enhansome-codex-cli",
+    "enhanced_repository_description": null,
+    "title": "Awesome codex cli with stars"
+  }
+}
